@@ -123,11 +123,11 @@ var methodCollection = {
 */
 
 //Code Here
-methodCollection = function alertHello() {
-  return 'hello';
+methodCollection.alertHello = function() {
+  alert('hello');
 }
 
-methodCollection = function logHello() {
+methodCollection.logHello = function() {
   console.log('hello');
 }
 /*
@@ -146,7 +146,7 @@ logHello();
 
 //Code Here
 function makePerson(name, birthday, ssn) {
-  newObj = {
+  return newObj = {
     name,
     birthday,
     ssn
@@ -160,3 +160,8 @@ function makePerson(name, birthday, ssn) {
 */
 
 //Code Here
+function makeCard(cardNumber, expirationDate, securityCode) {
+  return newCC = {
+    
+  }
+}
